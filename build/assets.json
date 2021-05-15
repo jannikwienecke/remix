@@ -1,0 +1,78 @@
+{
+  "version": "579bf7eb",
+  "entry": {
+    "module": "/build/entry.client-HA3YKL2T.js",
+    "imports": [
+      "/build/_shared/chunk-6724TRNC.js",
+      "/build/_shared/chunk-JPMXDYWF.js",
+      "/build/_shared/chunk-IYXDV4EP.js"
+    ]
+  },
+  "routes": {
+    "root": {
+      "id": "root",
+      "path": "/",
+      "module": "/build/root-IMSUENPV.js",
+      "hasAction": false,
+      "hasLoader": true
+    },
+    "routes/404": {
+      "id": "routes/404",
+      "parentId": "root",
+      "path": "*",
+      "caseSensitive": false,
+      "module": "/build/routes/404-67LUYDAR.js",
+      "hasAction": false,
+      "hasLoader": false
+    },
+    "routes/Template": {
+      "id": "routes/Template",
+      "parentId": "root",
+      "path": "Template",
+      "caseSensitive": false,
+      "module": "/build/routes/Template-JPZWPNI7.js",
+      "hasAction": false,
+      "hasLoader": false
+    },
+    "routes/categories": {
+      "id": "routes/categories",
+      "parentId": "root",
+      "path": "categories",
+      "caseSensitive": false,
+      "module": "/build/routes/categories-R235QNHI.js",
+      "imports": [
+        "/build/_shared/chunk-UMYFLG3H.js"
+      ],
+      "hasAction": false,
+      "hasLoader": true
+    },
+    "routes/categories/$id": {
+      "id": "routes/categories/$id",
+      "parentId": "routes/categories",
+      "path": ":id",
+      "caseSensitive": false,
+      "module": "/build/routes/categories/$id-7ZTWXC5M.js",
+      "hasAction": false,
+      "hasLoader": true
+    },
+    "routes/dashboard": {
+      "id": "routes/dashboard",
+      "parentId": "root",
+      "path": "dashboard",
+      "caseSensitive": false,
+      "module": "/build/routes/dashboard-EH2VDMNY.js",
+      "hasAction": false,
+      "hasLoader": false
+    },
+    "routes/index": {
+      "id": "routes/index",
+      "parentId": "root",
+      "path": "/",
+      "caseSensitive": false,
+      "module": "/build/routes/index-5CZQIPDL.js",
+      "hasAction": false,
+      "hasLoader": true
+    }
+  },
+  "url": "/build/manifest-579BF7EB.js"
+}
